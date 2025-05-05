@@ -13,7 +13,7 @@ const Products = ({ products }: ProductsProps) => {
                 <Link
                     key={product.id} 
                     href="/" 
-                    className="flex items-center justify-between gap-10 py-3 border-b py-5">
+                    className="flex items-center justify-between gap-10 py-3 border-b">
                     <div>
                         <h3 className="text-sm font-medium">
                             {product.name}
